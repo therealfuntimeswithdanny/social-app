@@ -8,7 +8,7 @@ export const LOCAL_DEV_SERVICE =
   Platform.OS === 'android' ? 'http://10.0.2.2:2583' : 'http://localhost:2583'
 export const STAGING_SERVICE = 'https://staging.bsky.dev'
 export const BSKY_SERVICE = 'https://rose.madebydanny.uk'
-export const BSKY_SERVICE_DID = 'did:web:bsky.social'
+export const BSKY_SERVICE_DID = 'did:web:rose.madebydanny.uk'
 export const PUBLIC_BSKY_SERVICE = 'https://public.api.bsky.app'
 export const DEFAULT_SERVICE = BSKY_SERVICE
 const HELP_DESK_LANG = 'en-us'
@@ -113,7 +113,7 @@ export function LINK_META_PROXY(serviceUrl: string) {
   return STAGING_LINK_META_PROXY
 }
 
-export const STATUS_PAGE_URL = 'https://status.bsky.app/'
+export const STATUS_PAGE_URL = 'https://status.mbdio.uk/'
 
 // Hitslop constants
 export const createHitslop = (size: number): Insets => ({
